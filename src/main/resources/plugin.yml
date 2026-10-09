@@ -1,0 +1,21 @@
+name: SitRide
+version: '${version}'
+main: dev.sitride.SitRidePlugin
+api-version: '26.3'
+author: you
+description: Sit on stairs/slabs and ride players or mobs.
+commands:
+  sit:
+    description: Sit down where you are standing.
+    usage: /sit
+  piggyback:
+    description: Ride a player or the mob you are looking at.
+    usage: /piggyback [player|off|drop]
+    aliases: [hopon]
+permissions:
+  sitride.sit:
+    description: Sit on stairs/slabs and use /sit
+    default: true
+  sitride.piggyback:
+    description: Use /piggyback
+    default: true
