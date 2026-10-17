@@ -1,0 +1,5 @@
+# Vertical offset of the seat. If players look like they are floating
+# above the stairs, lower it (e.g. -0.3). If they sink in, raise it (e.g. -0.1).
+seat-height-offset: -0.2
+
+# Only sit on stairs/slabs/carpets when your hand is empty and you are not sneaking.

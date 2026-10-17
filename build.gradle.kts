@@ -11,12 +11,11 @@ repositories {
 }
 
 dependencies {
-    // If 26.3 isn't found, try "26.2.build.+" or "26.1.2.build.+"
-    compileOnly("io.papermc.paper:paper-api:26.3.build.+")
+    compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
 }
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(25))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
 
 tasks.processResources {
